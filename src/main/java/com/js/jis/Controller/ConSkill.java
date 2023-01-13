@@ -29,7 +29,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("/skill/")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://front-end-argentina-programajs.web.app")
 public class ConSkill {
     
     @Autowired

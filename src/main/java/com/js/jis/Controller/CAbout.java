@@ -29,7 +29,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("/about")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://front-end-argentina-programajs.web.app")
 public class CAbout {
     @Autowired
     SAbout sAbout;
